@@ -1,0 +1,98 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ff80d5;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title, .logo {
+    cursor: pointer;
+}
+
+.product-count {
+    position: absolute;
+    top: 4px;
+    right: 53px;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo span {
+    font-size: 40px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+.error-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffe6ff;
+}
+
+.product-grid {
+    height: 150px;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.product-grid img {
+    height: 100%;
+    width: 100%;
+}
+
+.product-description {
+    flex-grow: 1;
+    text-align:  center;
+}
+
+.btn {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn button {
+    padding:  10px 20px;
+    font-weight: 600;
+    background-color: #ffd633;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
